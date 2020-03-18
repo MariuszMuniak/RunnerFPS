@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507340fad3e9cb74aa5241e3afd7770c, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: 
+  weaponName: Rifle
+  animatorOverride: {fileID: 22100000, guid: 1b9c009672f9f034fa1fd66335f42f09, type: 2}
+  weapon: {fileID: 100012, guid: 182b7f11db452bc458d35a6c9eced06f, type: 3}
+  damage: 15
+  magazineSize: 30
+  fireRate: 11.5
+  bullet: {fileID: 1086664671600574, guid: 5953171a59c27394e9ad5cbb564affa8, type: 3}
+  bulletForce: 400
+  hasWeaponRecoil: 0
+  weaponRecoil: 1
+  bulletShell: {fileID: 1309345429585892, guid: 7be59128a5ee3424faf33d7a408c0b2e,
+    type: 3}
+  shotSound: {fileID: 8300000, guid: 65201ddabb4144f6a8fb9480120b7656, type: 3}
+  takeOutSound: {fileID: 8300000, guid: b3345ae1072d19d41af46e01ef686461, type: 3}
+  reloadSound: {fileID: 8300000, guid: f7ce534a0633b9847910ba117e2245d1, type: 3}
+  reloadOutOfAmmoSound: {fileID: 8300000, guid: 5b907074256e36d41b92e89fb0790633,
+    type: 3}
+  aimInSound: {fileID: 8300000, guid: acaebc89b98b82142bd2b24edb6081e4, type: 3}
+  aimOutSound: {fileID: 8300000, guid: d547b8bb8af6c964db4ddfab62886835, type: 3}

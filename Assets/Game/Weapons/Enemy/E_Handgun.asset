@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507340fad3e9cb74aa5241e3afd7770c, type: 3}
+  m_Name: E_Handgun
+  m_EditorClassIdentifier: 
+  weaponName: E_Handgun
+  animatorOverride: {fileID: 0}
+  weapon: {fileID: 1856544113957998380, guid: 5399b8ea405ef3d46b79a1801175c5a1, type: 3}
+  damage: 5
+  magazineSize: 0
+  fireRate: 1
+  bullet: {fileID: 990658365632743183, guid: 91353680829f26f4bbd2022dcdc25b56, type: 3}
+  bulletForce: 0
+  hasWeaponRecoil: 0
+  weaponRecoil: 0
+  shotSound: {fileID: 8300000, guid: 35fbad8cdde724f11ba6481f1e64af71, type: 3}
+  takeOutSound: {fileID: 0}
+  reloadSound: {fileID: 0}
+  reloadOutOfAmmoSound: {fileID: 0}
+  aimInSound: {fileID: 0}
+  aimOutSound: {fileID: 0}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507340fad3e9cb74aa5241e3afd7770c, type: 3}
+  m_Name: E_SniperRifle
+  m_EditorClassIdentifier: 
+  weaponName: E_SniperRifle
+  animatorOverride: {fileID: 22100000, guid: 82514ff3e87163d47b6b7cd2678b76cb, type: 2}
+  weapon: {fileID: 854745053239360156, guid: a9a5e3d3e18c94e468d840519bebbe48, type: 3}
+  damage: 30
+  magazineSize: 0
+  fireRate: 0.5
+  bullet: {fileID: 7615537004906333992, guid: 38c756878636e3b4b8f0d59eb3b1329b, type: 3}
+  bulletForce: 0
+  hasWeaponRecoil: 0
+  weaponRecoil: 0
+  shotSound: {fileID: 8300000, guid: 281e15cc92254794eaf05caf4d044b76, type: 3}
+  takeOutSound: {fileID: 0}
+  reloadSound: {fileID: 0}
+  reloadOutOfAmmoSound: {fileID: 0}
+  aimInSound: {fileID: 0}
+  aimOutSound: {fileID: 0}
